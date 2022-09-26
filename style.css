@@ -49,9 +49,12 @@ header img{
 
 .photo{
     position: absolute;
-    left: 50%;
+    /* left: 50%;
     top:35%;
-    translate: -50% 50%; 
+    translate: -50% 50%;  */
+    left :50%;
+    right: 20%;
+    transform: translate(-50%,-110%);
 }
 
 .profile img{
@@ -87,7 +90,7 @@ footer{
     margin-top: 20px;
 }
 
-.number-content h2{
+.number-content h3{
     font-size: 22px;
 }
 
